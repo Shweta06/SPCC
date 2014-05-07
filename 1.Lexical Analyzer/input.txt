@@ -1,0 +1,7 @@
+void main()
+{
+int x,y,b,a;
+a=x+y;
+b=a+y;
+x=a+b;
+}

@@ -1,0 +1,8 @@
+key#4 Fun#0 Sp_Sym#8 
+Sp_Sym#5 
+key#1 Sym#0 Sp_Sym#2 Sym#1 Sp_Sym#2 Sym#2 Sp_Sym#2 Sym#3 Sp_Sym#1 
+Sym#3 Op#1 Sym#0 Op#2 Sym#1 Sp_Sym#1 
+Sym#2 Op#1 Sym#3 Op#2 Sym#1 Sp_Sym#1 
+Sym#0 Op#1 Sym#3 Op#2 Sym#2 Sp_Sym#1 
+Sp_Sym#6 
+
