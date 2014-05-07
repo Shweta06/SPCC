@@ -1,0 +1,16 @@
+root@hemang-M68M-S2P:/home/hemang/Desktop# yacc -d sql.y
+root@hemang-M68M-S2P:/home/hemang/Desktop# lex sql.l
+root@hemang-M68M-S2P:/home/hemang/Desktop# gcc y.tab.c lex.yy.c -o out
+root@hemang-M68M-S2P:/home/hemang/Desktop# ./out
+SELECT 8 FROM ABC
+syntax error
+root@hemang-M68M-S2P:/home/hemang/Desktop# ./out
+SELECT * FROM ABC
+Syntax correct
+root@hemang-M68M-S2P:/home/hemang/Desktop# ./out
+SELECT A,B,C FROM ABC,DEF WHERE A=9
+syntax correct
+root@hemang-M68M-S2P:/home/hemang/Desktop# ./out
+SELECT A,B FROM ABC WHERE AB='RD' AND FR=4     
+syntax correct
+

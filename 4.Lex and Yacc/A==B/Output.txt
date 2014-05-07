@@ -1,0 +1,14 @@
+root@hemang-M68M-S2P:/home/hemang/Desktop# lex ab.l
+root@hemang-M68M-S2P:/home/hemang/Desktop# yacc -d ab.y
+root@hemang-M68M-S2P:/home/hemang/Desktop# lex ab.l
+root@hemang-M68M-S2P:/home/hemang/Desktop# gcc y.tab.c lex.yy.c -o out
+root@hemang-M68M-S2P:/home/hemang/Desktop# ./out
+abbbaa
+Syntax correct
+root@hemang-M68M-S2P:/home/hemang/Desktop# ./out
+abba
+Syntax correct
+root@hemang-M68M-S2P:/home/hemang/Desktop# ./out
+ababa
+Syntax incorrect
+
